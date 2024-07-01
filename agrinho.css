@@ -11,33 +11,31 @@ body {
 }
 
 .mato2 {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
     position: absolute;
     width: 30vw;
-    right: 0vw;
-}
-
-.matooutrolado1 {
-    position: absolute;
-    width: 30vw;
-    right: -30vw;
-}
-
-.mato3 {
-    position: absolute;
     transform: scaleY(-1);
-    width: 30vw;
     bottom: 0vw;
 }
 
-.mato4 {
-    -webkit-transform: scaleX(-1);
-    transform: scaleY(-1);
+.arvore {
     position: absolute;
-    width: 30vw;
-    right: 0vw;
-    bottom: 0vh;
+    width: 100vw;
+    bottom: -10vh;
+    left: 50%;
+}
+
+.arbusto1 {
+    position: absolute;
+    bottom: -0.1vw;
+    width: 40vw;
+    left: 95%;
+}
+
+.arbusto2 {
+    position: absolute;
+    bottom: -0.1vw;
+    width: 40vw;
+    left: 65%;
 }
 
 .titulo1, .titulo2 {
