@@ -1,41 +1,14 @@
 body {
+    height: 100vh;
     padding: 0;
     margin: 0;
     overflow-y: hidden;
-    overflow-x: hidden;
+    background-color: #72D1F2;
 }
 
-.mato1 {
-    position: absolute;
-    width: 30vw;
-}
-
-.mato2 {
-    position: absolute;
-    width: 30vw;
-    transform: scaleY(-1);
-    bottom: 0vw;
-}
-
-.arvore {
-    position: absolute;
-    width: 100vw;
-    bottom: -10vh;
-    left: 50%;
-}
-
-.arbusto1 {
-    position: absolute;
-    bottom: -0.1vw;
-    width: 40vw;
-    left: 95%;
-}
-
-.arbusto2 {
-    position: absolute;
-    bottom: -0.1vw;
-    width: 40vw;
-    left: 65%;
+body {
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .titulo1, .titulo2 {
@@ -45,15 +18,36 @@ body {
 }
 
 .titulo1 {
-    font-size: 60px;
+    font-size: 65px;
 }
 
 .titulo2 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .titulo {
     padding-top: 35vh;
+}
+
+.arvore1 {
+    position: absolute;
+    left: -44vw;
+    bottom: -25vh;
+    z-index: 1;
+}
+
+.matagal {
+    position: absolute;
+    width: 110vw;
+    bottom: 0px;
+    left: -4vw;
+    z-index: 2;
+}
+
+.arvore2 {
+    position: absolute;
+    right: -38vw;
+    bottom: 0px;
 }
 
 .cubo {
