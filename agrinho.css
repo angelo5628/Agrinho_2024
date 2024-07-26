@@ -3,13 +3,11 @@ body {
     padding: 0;
     margin: 0;
     overflow-y: hidden;
-    background-color: #72D1F2;
-}
-
-body {
+    background-color: #74D2F3;
     user-select: none;
     -webkit-user-drag: none;
 }
+
 
 .titulo1, .titulo2 {
     text-align: center;
@@ -26,34 +24,91 @@ body {
 }
 
 .titulo {
-    padding-top: 35vh;
+    padding-top: 30vh;
+}
+
+.scroll {
+    width: 5vw;
+}
+
+.montanhaatras {
+    position: absolute;
+    width: 100vw;
+    left: 0px;
+    bottom: -5vh;
 }
 
 .arvore1 {
     position: absolute;
+    width: 80vw;
     left: -44vw;
     bottom: -25vh;
-    z-index: 1;
 }
 
 .matagal {
     position: absolute;
     width: 110vw;
-    bottom: 0px;
+    bottom: -5vh;
     left: -4vw;
-    z-index: 2;
+    z-index: 4;
+}
+
+.nuvem1 {
+    position: absolute;
+    width: 15vw;
+    top: -10vh;
+    left: 23vw;
+}
+
+.subnuvem1 {
+    position: absolute;
+    width: 12vw;
+    top: 0vh;
+    left: 18vw;
+}
+
+.subnuvem2 {
+    position: absolute;
+    width: 13vw;
+    top: -5vh;
+    left: 28vw;
+}
+
+.nuvem2 {
+    position: absolute;
+    width: 15vw;
+    top: -8vh;
+    left: 53vw;
+    transform: scaleX(-1);
 }
 
 .arvore2 {
     position: absolute;
-    right: -38vw;
-    bottom: 0px;
+    width: 80vw;
+    right: -42vw;
+    bottom: -10vh;
+    z-index: 3;
 }
 
-.cubo {
-    background-color: black;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    left: 4000px;   
+.estrada1 {
+    position: absolute;
+    width: 250vw;
+    bottom: -5vh;
+    right: -255vw;
+    z-index: 2;
+}
+
+.montanha1 {
+    position: absolute;
+    width: 150vw;
+    bottom: 0vh;
+    right: -180vw;
+    z-index: 1;
+}
+
+.montanha2 {
+    position: absolute;
+    width: 100vw;
+    bottom: 0vh;
+    right: -180vw;
 }
