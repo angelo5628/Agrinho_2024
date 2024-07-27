@@ -40,8 +40,8 @@ body {
 
 .arvore1 {
     position: absolute;
-    width: 80vw;
-    left: -44vw;
+    width: 70vw;
+    left: -32vw;
     bottom: -25vh;
 }
 
@@ -53,33 +53,17 @@ body {
     z-index: 4;
 }
 
-.nuvem1 {
+.campao {
     position: absolute;
-    width: 15vw;
-    top: -10vh;
-    left: 23vw;
+    width: 100vw;
+    bottom: 0vh;
 }
 
-.subnuvem1 {
+.nuvem {
     position: absolute;
-    width: 12vw;
-    top: 0vh;
-    left: 18vw;
-}
-
-.subnuvem2 {
-    position: absolute;
-    width: 13vw;
-    top: -5vh;
-    left: 28vw;
-}
-
-.nuvem2 {
-    position: absolute;
-    width: 15vw;
-    top: -8vh;
-    left: 53vw;
-    transform: scaleX(-1);
+    width: 45vw;
+    top: -3vh;
+    left: 20vw;
 }
 
 .arvore2 {
@@ -98,17 +82,16 @@ body {
     z-index: 2;
 }
 
-.montanha1 {
+.fundo {
     position: absolute;
-    width: 150vw;
-    bottom: 0vh;
-    right: -180vw;
-    z-index: 1;
+    width: 250vw;
+    bottom: -25vh;
+    right: -250vw;
 }
 
-.montanha2 {
+.campao2 {
     position: absolute;
-    width: 100vw;
+    width: 180vw;
+    right: -420vw;
     bottom: 0vh;
-    right: -180vw;
 }
