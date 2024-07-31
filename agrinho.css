@@ -11,8 +11,8 @@ body {
 
 .titulo1, .titulo2 {
     text-align: center;
-    font-family: 'Montserrat';
-    font-weight: 300;
+    font-family: "Luckiest Guy";
+    font-weight: 100;   
 }
 
 .titulo1 {
@@ -31,11 +31,11 @@ body {
     width: 5vw;
 }
 
-.montanhaatras {
+.chapeu {
     position: absolute;
-    width: 100vw;
-    left: 0px;
-    bottom: -5vh;
+    width: 5vw;
+    bottom: 59vh;
+    right: 47.5vw;
 }
 
 .arvore1 {
@@ -89,9 +89,98 @@ body {
     right: -250vw;
 }
 
-.campao2 {
+.bilhoesdenuvens {
     position: absolute;
-    width: 180vw;
-    right: -420vw;
+    width: 100vw;
+    bottom: 70vh;
+    right: -160vw;
+}
+
+.fazendinha {
+    position: absolute;
+    width: 15vw;
+    right: -65vw;
+    bottom: 34vh;
+}
+
+.casinhafundo {
+    position: absolute;
+    width: 30vw;
+    right: -175vw;
+    bottom: 32vh;
+}
+
+.casinha {
+    position: absolute;
+    width: 74vw;
+    bottom: 0px;
+    right: -260vw;
+}
+
+.estrada2 {
+    position: absolute;
+    width: 210vw;
+    height: 14vh;
+    bottom: -5vh;
+    right: -445vw;
+    z-index: 2;
+}
+
+.hominho {
+    position: absolute;
+    width: 22vw;
+    bottom: 2vh;
+    right: -275vw;
+    z-index: 3;
+    cursor: pointer;
+    -webkit-user-drag: none;
+}
+
+.bilhoesdenuvens2 {
+    position: absolute;
+    width: 100vw;
+    bottom: 60vh;
+    right: -370vw;
+}
+
+.bilhoesdenuvens3 {
+    position: absolute;
+    width: 30vw;
+    bottom: 68vh;
+    right: -410vw;
+}
+
+.caixa {
+    position: absolute;
+    width: 18vw;
+    bottom: 1vh;
+    right: -290vw;
+    z-index: 3;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.trigo {
+    position: absolute;
+    width: 160vw;
+    right: -425vw;
     bottom: 0vh;
+    z-index: 1;
+}
+
+.animais {
+    position: absolute;
+    width: 75vw;
+    bottom: 0vh;
+    right: -380vw;
+    z-index: 1;
+}
+
+.veiculo {
+    position: absolute;
+    width: 46vw;
+    right: -440vw;
+    bottom: 1vh;
+    z-index: 3;
+    -webkit-user-drag: none;
 }
