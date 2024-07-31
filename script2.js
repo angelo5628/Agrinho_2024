@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             message: "Enfim, eu tava me arrumando pra levar as verdura la pra cidade!, quer ir junto comigo?",
             options: [
-                { text: "Claro! Mas em, eu ainda tenho algumas perguntas...", next: 7 },
+                { text: "Claro! Mas ein, eu ainda tenho algumas perguntas...", next: 7 },
                 { text: "Eu ainda preciso ver outras coisas...", next: 1 }
             ]
         },
