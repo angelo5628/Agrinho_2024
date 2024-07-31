@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            message: "Meu ganha pão vem da roça, eu planto de tudo um pouco: milho, feijão, mandioca... Também tenho umas vaquinhas pra tirar leite e umas galinhas pra garantir o ovo fresco todo dia. É um trabalho duro, mas muito gratificante.",
+            message: "Meu ganha pão vem da roça, eu planto de tudo um pouco: cenoura, trigo, tomate, alfaces... Também tenho umas vaquinhas pra tirar leite e umas galinhas pra garantir o ovo fresco todo dia. É um trabalho duro, mas muito gratificante.",
             options: [
                 { text: "Entendi!", next: 6 }
             ]
