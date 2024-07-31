@@ -158,12 +158,53 @@ body {
     z-index: 5;
 }
 
-.fazendeiro {
+.dialogue-container {
     position: absolute;
-    width: 11vw;
     bottom: 16vh;
     left: 360vw;
+    padding: 200px;
+}
+
+.character-message {
+    position: absolute;
+    font-family: monospace;
+    font-size: 30px;
+    bottom: 40vh;
+    left: -35vw;
+    z-index: 10;
+}
+
+.user-options {
+    position: absolute;
+    font-family: monospace;
+    font-size: 30px;
+    bottom: 30vh;
+    left: -35vw;
+    z-index: 10;
+}
+
+.option-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.option-button:hover {
+    background-color: #0056b3;
+}
+
+.character-image {
+    position: absolute;
+    width: 11vw;
+    bottom: 0vh;
+    left: 0vh;
     z-index: 11;
+    cursor: pointer;
+    -webkit-user-drag: none;
 }
 
 .verduras {
