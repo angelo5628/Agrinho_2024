@@ -117,6 +117,44 @@ body {
     right: -260vw;
 }
 
+.dialogue-container {
+    position: absolute;
+    right: 0vw;
+    bottom: 0vh;
+}
+
+.character-message {
+    position: absolute;
+    font-family: monospace;
+    font-size: 30px;
+    right: -300vw;
+    bottom: 60vh;   
+    z-index: 2;
+}
+
+.user-options {
+    position: absolute;
+    font-family: monospace;
+    font-size: 30px;
+    right: -290vw;
+    bottom: 50vh;
+    z-index: 2;
+}
+
+.option-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.option-button:hover {
+    background-color: #0056b3;
+}
+
 .estrada2 {
     position: absolute;
     width: 210vw;
@@ -126,7 +164,7 @@ body {
     z-index: 2;
 }
 
-.hominho {
+.character-image {
     position: absolute;
     width: 22vw;
     bottom: 2vh;
@@ -141,6 +179,7 @@ body {
     width: 100vw;
     bottom: 60vh;
     right: -370vw;
+    z-index: 1;
 }
 
 .bilhoesdenuvens3 {
@@ -148,6 +187,7 @@ body {
     width: 30vw;
     bottom: 68vh;
     right: -410vw;
+    z-index: 1;
 }
 
 .caixa {
