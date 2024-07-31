@@ -1,0 +1,215 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    background-color: #74D2F3;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.rua {
+    position: absolute;
+    width: 250vw;
+    height: 20vh;
+    bottom: -3vh;
+    left: -15vw;
+    z-index: 9;
+}   
+
+.dentrodahilux {
+    position: absolute;
+    width: 28vw;
+    bottom: 1vh;
+    z-index: 10;
+    -webkit-user-drag: none;
+}
+
+.calcada1 {
+    position: absolute;
+    bottom: 4vh;
+    width: 180vw;
+    z-index: 8;
+}
+
+.predio1 {
+    position: absolute;
+    width: 150vw;
+    bottom: 14vh;
+    left: 8vw;
+    z-index: 7;
+}
+
+.predio2 {
+    position: absolute;
+    width: 40vw;
+    bottom: 10vh;
+    left: 150vw;
+    z-index: 6;
+}
+
+.rapazatrasado {
+    position: absolute;
+    width: 11vw;
+    bottom: 16vh;
+    left: 160vw;
+    z-index: 9;
+}
+
+.ruavirada {
+    position: absolute;
+    width: 40vw;
+    bottom: 9vh;
+    left: 178vw;
+    z-index: 6;
+}
+
+.ruaresto {
+    position: absolute;
+    width: 15.5vw;
+    bottom: 33vh;
+    left: 187vw;
+    z-index: 5;
+}
+
+.nuvens {
+    position: absolute;
+    width: 30vw;
+    left: 177vw;
+    bottom: 80vh;
+}
+
+.fundo1 {
+    position: absolute;
+    width: 40vw;
+    left: 177vw;
+    bottom: 34.5vh;
+}
+
+.rua2 {
+    position: absolute;
+    width: 185vw;
+    height: 20vh;
+    bottom: -3vh;
+    left: 225vw;
+    z-index: 9;
+}
+
+.calcada2 {
+    position: absolute;
+    width: 98vw;
+    bottom: 11vh;
+    left: 214vw;
+    z-index: 8;
+}
+
+.predio3 {
+    position: absolute;
+    width: 25vw;
+    bottom: 10vh;
+    left: 198vw;
+    z-index: 5;
+}
+
+.predio4 {
+    position: absolute;
+    width: 50vw;
+    bottom: 15vh;
+    left: 210vw;
+    z-index: 5;
+}
+
+.nuvens2 {
+    position: absolute;
+    width: 40vw;
+    left: 250vw;
+    bottom: 75vh;
+}
+
+.ponto_onibus {
+    position: absolute;
+    width: 24vw;
+    bottom: 16vh;
+    left: 250vw;
+    z-index: 7;
+}
+
+.carinhabrabo {
+    position: absolute;
+    width: 8vw;
+    bottom: 16vh;
+    left: 250vw;
+    z-index: 9;
+}
+
+.predio5 {
+    position: absolute;
+    width: 50vw;
+    bottom: 15vh;
+    left: 260vw;
+    z-index: 5;
+}
+
+.estacionamento {
+    position: absolute;
+    width: 53vw;
+    bottom: 9vh;
+    left: 310vw;
+    z-index: 5;
+}
+
+.fazendeiro {
+    position: absolute;
+    width: 11vw;
+    bottom: 16vh;
+    left: 360vw;
+    z-index: 11;
+}
+
+.verduras {
+    position: absolute;
+    width: 8vw;
+    bottom: 16vh;
+    left: 370vw;
+    z-index: 11;
+}
+
+.vendedor {
+    position: absolute;
+    width: 4vw;
+    bottom: 16vh;
+    left: 380vw;
+    z-index: 11;
+}
+
+.mercadinho {
+    position: absolute;
+    width: 50vw;
+    bottom: 17vh;
+    left: 356vw;
+    z-index: 9;
+}
+
+.nuvens3 {
+    position: absolute;
+    width: 40vw;
+    left: 318vw;
+    bottom: 80vh;
+}
+
+.calcada3 {
+    position: absolute;
+    width: 60vw;
+    height: 13vh;
+    bottom: 11vh;
+    left: 350vw;
+    z-index: 8;
+}
+
+.fundo2 {
+    position: absolute;
+    width: 160vw;
+    bottom: 15vh;
+    left: 250vw;
+    z-index: 1;
+}
