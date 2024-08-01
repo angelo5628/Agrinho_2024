@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const characterImage = document.getElementById('character-image');
+    const characterDialogue = document.getElementById('character-dialogue');
     const characterMessage = document.getElementById('character-message');
     const userOptions = document.getElementById('user-options');
 
@@ -26,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            message: "Meu ganha pão vem da roça, eu planto de tudo um pouco: milho, feijão, mandioca... Também tenho umas vaquinhas pra tirar leite e umas galinhas pra garantir o ovo fresco todo dia. É um trabalho duro, mas muito gratificante.",
+            message: "Meu ganha pão vem da roça, eu planto de tudo um pouco: cenoura, tomate, alface... Também tenho umas vaquinhas pra tirar leite e umas galinhas pra garantir o ovo fresco todo dia. É um trabalho duro, mas muito gratificante.",
             options: [
                 { text: "Entendi!", next: 6 }
             ]
@@ -46,29 +47,42 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             message: "Enfim, eu tava me arrumando pra levar as verdura la pra cidade!, quer ir junto comigo?",
             options: [
-                { text: "Claro! Mas ein, eu ainda tenho algumas perguntas...", next: 7 },
-                { text: "Eu ainda preciso ver outras coisas...", next: 1 }
+                { text: "Claro! Mas em, eu ainda tenho algumas perguntas...", next: 8 },
+                { text: "Eu ainda preciso ver outras coisas...", next: 7 }
+            ]
+        },
+        {
+            message: "Beleza, vou ta te esperando!", /* 7 */
+            options: [
+                { text: "...", next: 1 }
             ]
         },
         {
             message: "Claro! Pode perguntar o que quiser fio!",
             options: [
-                { text: "Como é a viagem até a cidade?", next: 8 },
-                { text: "Você gosta dessa vida?", next: 9 }
+                { text: "Como é a viagem até a cidade?", next: 9 },
+                { text: "Você gosta dessa vida?", next: 10 }
             ]
         },
         {
             message: "Ah, a viagem até a cidade é uma aventura por si só. Saio cedinho, antes do sol nascer, pra pegar a estrada de terra com minha caminhonete. Tem dias que a estrada tá boa, mas quando chove fica um barro danado, aí o bicho pega. Mas faz parte, né? A gente vai enfrentando os percalços com coragem.",
             options: [
-                { text: "Entendi!" },
-                { text: "Entendo, posso te perguntar outra coisa?", next: 7 }
+                { text: "Entendi!", next: 11 },
+                { text: "Entendo, posso te perguntar outra coisa?", next: 8 }
             ]
         },
         {
             message: "Eu gosto demais dessa vida, viu? Tem seu cansaço, é verdade, mas também tem uma satisfação danada quando vejo o fruto do meu trabalho. Colher o que plantei, cuidar dos animais, sentir o cheiro da natureza... É uma conexão que só quem vive no campo entende. Cada ida à cidade é uma oportunidade de ver o progresso, mas também de valorizar ainda mais a paz do meu cantinho.",
             options: [
-                { text: "Entendi!" },
-                { text: "Entendo, posso te perguntar outra coisa?", next: 7 }
+                { text: "Entendi!", next: 11 },
+                { text: "Entendo, posso te perguntar outra coisa?", next: 8 }
+            ]
+        },
+        {
+            message: "Então, bora?",
+            options: [
+                { text: "Vamo que vamo! (clique na caminhonete na direita para ir até a cidade.)" },
+                { text: "Peraí só mais um pouquinho!", next: 7 }
             ]
         }
     ];
@@ -79,8 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const dialogue = dialogues[index];
         characterMessage.textContent = dialogue.message;
         userOptions.innerHTML = '';
-        characterMessage.style.display = 'block';
-        userOptions.style.display = 'block';
+        characterDialogue.style.display = 'flex';
         dialogue.options.forEach(option => {
             const button = document.createElement('button');
             button.className = 'option-button';
